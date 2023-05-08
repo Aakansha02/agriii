@@ -10,6 +10,7 @@ View and manage rental requests
 View rental history
 
 Technologies Used
+
 This front-end web application was built using React and various supporting libraries and frameworks, including:
 
 React Router for client-side routing
