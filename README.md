@@ -1,6 +1,7 @@
 This is a front-end web application built using React, designed to provide farmers with a platform to rent or borrow agricultural machinery tools online.
 
 Features
+
 Sign up and login functionality for farmers
 Browse and search for available machinery tools for rent or borrowing
 View detailed information about each tool, including availability, rental price, and location
