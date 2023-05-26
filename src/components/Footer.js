@@ -11,11 +11,11 @@ Heading,
 const Footer = () => {
 return (
 	<Box>
-	<h1 style={{ color: "green",
+	<h1 style={{ color: "black",
 				textAlign: "center",
 				marginTop: "-50px" ,
         marginLeft:"10px"}}>
-	Krishak - An Initiative For The Betterment Of Farmers
+	KRISHAK - An Initiative For The Betterment Of Farmers
 	</h1>
 	<Container>
 		<Row>

@@ -1,9 +1,9 @@
 import React from 'react'
 
 const aboutus = () => {
-  let message ='prabhakar lodu';
+  let message ='prabhakar hehe';
   return (
-    <section className='section-white'>
+    <div className='section-white'>
       <div className='container'>
         <div className='row'>
           <div className='col-md-12 text-centre'>
@@ -42,7 +42,7 @@ const aboutus = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   )
 }
 

@@ -2,9 +2,10 @@ import styled from 'styled-components';
 
 export const Box = styled.div`
 padding: 80px 60px;
-background: black;
+background: white;
 position: relative;
 bottom: 0;
+margin bottom :0;
 width: 100%;
 
 
@@ -17,11 +18,11 @@ export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	max-width: 1000px;
+	max-width: auto;
 	margin: 0 auto;
 
-    border-radius:30px;
-	 background:green;
+    border-radius:20px;
+	 background:orange;
 `
 
 export const Column = styled.div`
@@ -57,7 +58,7 @@ text-decoration: none;
 
 export const Heading = styled.p`
 font-size: 24px;
-color: #fff;
+color: black;
 margin-bottom: 40px;
 font-weight: bold;
 `;

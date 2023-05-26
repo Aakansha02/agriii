@@ -1,0 +1,27 @@
+.contact h2{
+font-weight: 700;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+align-content: center;
+margin-left: 500px;
+}
+.contact-container {
+    align-items: center;
+  }
+  
+
+  
+  .contact-info {
+   width: auto;
+   align-items: center;
+   background-color: rgb(196, 196, 191);
+  }
+  
+  .contact-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }

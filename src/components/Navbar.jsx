@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './navbar.css'
+import {CgMenu, CgClose} from "react-icons/cg";
 
 const navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
     
-      <a class="navbar-brand fw-bold fs-2" href="#">AGRIII</a>
+      <a class="navbar-brand fw-bold fs-2" href="#">KRISHAK</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -21,18 +22,18 @@ const navbar = () => {
             <Link to='/About' class="nav-link">About</Link>
             
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              categories
+          <li class="nav-item">
+  
+            <Link to='/ProductsGallery' class="nav-link">Products</Link>
             
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Tractors</a></li>
-              <li><a class="dropdown-item" href="#">Spade</a></li>
-              <li><a class="dropdown-item" href="#">Cultivator</a></li>
-              <li><a class="dropdown-item" href="#">Harvester</a></li>
-            </ul>
           </li>
+          <li class="nav-item">
+  
+  <Link to='/ProductsGallery' class="nav-link">Contact</Link>
+  
+</li>
+        
+          
           <div class="navbarsear bg-body-tertiary">
   <div class="container-fluid">
     <form class="d-flex" role="search">
@@ -43,15 +44,16 @@ const navbar = () => {
 </div>
          
         </ul>
+      
         <div className='Buttons'>
             <a href=" " className='btn btn-outline-dark'>
-                <i className='fa fa-sign-in me-1'></i> Login</a>
+                <i className='fa fa-sign-in me-1'></i> Sign Up</a>
                 <a href=" " className='btn btn-outline-dark ms-2'>
-                <i className='fa fa-user-plus me-1'></i> Register</a>
-                <a href=" " className='btn btn-outline-dark ms-2'>
+
                 <i className='fa fa-shopping-cart me-1'></i>Cart(0)</a>
         </div>
       </div>
+     
     
   </nav>
   )
